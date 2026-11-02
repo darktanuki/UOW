@@ -1,0 +1,32 @@
+[project]
+name = "unbaisedopenworld"
+version = "0.1.0"
+description = "Official implementation of Unbiased Open World (UOW)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    #"faiss-cpu>=1.13.2; sys_platform != 'linux'",
+    #"faiss-gpu-cu12; sys_platform == 'linux'",
+    "kagglehub>=1.0.0",
+    "kornia>=0.8.2",
+    "lightly>=1.5.23",
+    "lightning>=2.6.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "opencv-python>=4.13.0.92",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "torch",
+    "transformers>=4.56",
+    "torchvision"
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

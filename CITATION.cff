@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+type: article
+title: "Unbiased Open World Regularization for Fair Self-Supervised Learning"
+authors:
+  - family-names: Nicollier
+    given-names: Léo
+  - family-names: Pic
+    given-names: Marc
+  - family-names: Musé
+    given-names: Pablo
+  - family-names: Meinhardt-Llopis
+    given-names: Enric
+  - family-names: Facciolo
+    given-names: Gabriele
+date-released: 2026-07-24
+doi: 10.48550/arXiv.2607.22149
+url: https://arxiv.org/abs/2607.22149
